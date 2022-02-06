@@ -229,6 +229,28 @@ a.nav-link{
 }
 
 /*──────────────────
+      Servers
+──────────────────*/
+
+#servers{
+	margin: auto;
+	padding-bottom: 20px;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: var(--main-fonts-color);
+}
+	
+#servers p{
+	padding:10px;
+	text-align:center;
+	font-size:1.2rem;
+	font-family: var(--main-font-family);
+}
+
+/*──────────────────
       Contact
 ──────────────────*/
 
@@ -250,27 +272,6 @@ a.nav-link{
 	font-family: var(--main-font-family);
 }
 
-/*──────────────────
-      Servers
-──────────────────*/
-
-#servers{
-	margin: auto;
-	padding-bottom: 20px;
-	height: 600px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	color: var(--main-fonts-color);
-}
-	
-#servers p{
-	padding:10px;
-	text-align:center;
-	font-size:1.2rem;
-	font-family: var(--main-font-family);
-}
 
 /*────────────────── 
        footer
